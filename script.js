@@ -1,6 +1,6 @@
 function buildUrl(appendix) {
 	let key = {
-		'api-key': 'f7577550d7614407b908f355b3bd8254'
+		'api-key': 'fT02REymZQj18oW2VRd1rbtsp7jjm4ve'
 	};
 	let link = 'https://api.nytimes.com/svc/' + appendix;
 	return link += '?' + $.param(key);
